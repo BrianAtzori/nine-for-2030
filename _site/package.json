@@ -1,0 +1,16 @@
+{
+  "name": "nine-for-2030",
+  "version": "1.0.0",
+  "description": "Seventh exam project of the Start2Impact University - A blog about the SDG #9 made with Jekyll and built from scratch 🧪",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.31",
+    "tinacms": "^1.5.22"
+  }
+}
