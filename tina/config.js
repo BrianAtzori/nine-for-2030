@@ -21,9 +21,9 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "articoli",
+        label: "Articoli",
+        path: "blog/",
         fields: [
           {
             type: "string",
@@ -37,6 +37,11 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            type: "string",
+            name: "categoria",
+            label: "Categoria",
           },
         ],
       },
