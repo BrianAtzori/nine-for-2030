@@ -37,11 +37,18 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+            required: true
           },
           {
             type: "string",
-            name: "categoria",
+            name: "category",
             label: "Categoria",
+            required: true
+          },
+          {
+            type: "string",
+            name: "permalink",
+            label: "Permalink",
           },
         ],
       },
