@@ -24,6 +24,7 @@ export default defineConfig({
         name: "articoli",
         label: "Articoli",
         path: "blog/",
+        permalink:"prova",
         fields: [
           {
             type: "string",
