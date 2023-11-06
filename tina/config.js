@@ -45,11 +45,6 @@ export default defineConfig({
             label: "Categoria",
             required: true
           },
-          {
-            type: "string",
-            name: "permalink",
-            label: "Permalink",
-          },
         ],
       },
     ],
