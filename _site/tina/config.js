@@ -23,7 +23,7 @@ export default defineConfig({
       {
         name: "articoli",
         label: "Articoli",
-        path: "blog/:categories/",
+        path: "blog/",
         fields: [
           {
             type: "string",
